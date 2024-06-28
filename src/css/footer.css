@@ -25,6 +25,8 @@
     color: #fbfbfb;
     border-radius: 30px;
         padding: 40px 28px 28px 28px;
+        height: 100%;
+        
 }
 
 .footer-top {
@@ -34,11 +36,11 @@
  
 }
 
-.footer-top-contacts {
+.footer-top-link {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 40px;                    /*  ??????? зробити jastify-content: sb  ???????  */
+    margin-bottom: 20px;                    /*  ??????? зробити jastify-content: sb  ???????  */
 }
 
 .footer-logo {
@@ -78,6 +80,7 @@
     height: 44px;
     padding: 14px 0;
     font-family: "Gilroy", sans-serif;
+    margin-bottom: 40px;
 }
 
 .footer-slogan {
@@ -94,7 +97,7 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin-bottom: 48px;                           /*    ??????? зробити jastify-content: sb  ???????  */
+    margin-bottom: 24px;                           /*    ??????? зробити jastify-content: sb  ???????  */
 }
 
 .footer-nav-list {
@@ -113,13 +116,18 @@
     text-align: center;
 }
 
-.footer-nav-link {
-    
-}
+/* .footer-nav-link {
+    font-family: "Gilroy", sans-serif;
+       
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.33333;
+        text-align: center;
+} */
 
 .footer-address {
-    font-family: "Gilroy", sans-serif;              /*    ?????? має прийти з основних стилів ??????    */
-    font-style: normal;                             /*    ?????? має прийти з основних стилів ??????    */
+    font-family: "Gilroy", sans-serif;              
+    font-style: normal;                             
     font-weight: 500;
     font-size: 12px;
     line-height: 1.33333;
@@ -128,6 +136,8 @@
 }
 
 .footer-bottom {
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -136,17 +146,24 @@
     
 }
 
+.footer-bottom::before {
+    content: '';
+    width: 279px;
+    height: 1px;
+    background-color: rgba(251, 251, 251, 0.1);
+   }
+
 .footer-copyright {
-    width: 187px;
-        height: 36px;
-        font-family: "Gilroy", sans-serif;
+          font-family: "Gilroy", sans-serif;
         font-weight: 500;
         font-size: 10px;
         line-height: 1.4;
         letter-spacing: -0.02em;
         color: rgba(251, 251, 251, 0.5);
         opacity: 0.9;
+        padding-top: 16px;
 }
+
 .footer-bottom-link {
     font-weight: 500;
         font-size: 10px;
@@ -161,4 +178,95 @@
             gap: 20px;
             width: 152px;
                 height: 14px;
+}
+
+@media screen and (min-width: 768px) {
+.footer-container {padding: 40px 40px 28px;
+} 
+
+.footer-top {
+    flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+       row-gap: 86px;
+    margin-bottom: 100px;          /*  ??????? зробити jastify-content: sb  ???????  */
+}
+
+.footer-top-link {
+    margin-bottom: 0;
+}
+
+.footer-logo {
+font-size: 20px;
+}
+
+.footer-socials-list {
+    width: 36px;
+    height: 36px;
+}
+
+.footer-phone {
+    font-size: 14px;
+    line-height: 1.29;
+    width: 152px;
+    height: 44px;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.footer-slogan {
+    font-size: 28px;
+    line-height: 1.14;
+    max-width: 524px;
+    margin: 0 auto;
+}
+
+.footer-center {
+      margin-bottom: 28px;
+}
+
+.footer-nav-list {
+    flex-wrap: nowrap;
+    gap: 19px;
+    max-width: 400px;
+    height: 18px;
+    font-size: 14px;
+        line-height: 1.29;
+}
+
+.footer-address {
+    font-size: 14px;
+    line-height: 1.29;
+    max-width: 162px;
+}
+
+.footer-bottom {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 28px;
+      }
+
+.footer-bottom::before {
+    content: '';
+    width:624px;
+
+}
+
+.footer-copyright {
+    font-size: 14px;
+        line-height: 1.29;
+        padding-top: 0;
+        flex-wrap: nowrap;
+}
+
+
+.footer-bottom-link {
+font-size: 14px;
+line-height: 1.29;
+width: 204px;
+height: 18px;
+}
 }

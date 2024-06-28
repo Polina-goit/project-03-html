@@ -5,6 +5,7 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./base.css');
 
 @import url('./header.css');
 @import url('./hero.css');
@@ -15,5 +16,3 @@
 @import url('./reviews.css');
 @import url('./contact.css');
 @import url('./footer.css');
-
-

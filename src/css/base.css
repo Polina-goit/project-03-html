@@ -20,6 +20,8 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  display: none !important;
+  visibility: hidden !important;
 }
 .is-open {
   opacity: 1;
@@ -56,9 +58,16 @@ button {
     padding: 0 32px;
   }
 }
+/* .container {
+  max-width: 375px; 
+  padding: 0 20px; 
+  margin: 0 auto;
+} */
+
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
     padding: 0 65px;
   }
 }
+

@@ -1,3 +1,7 @@
+.footer {
+    padding-bottom: 20px;
+}
+
 .footer-container {
     background-color: #0c0c0c;
     color: #fbfbfb;
@@ -25,6 +29,11 @@
     font-weight: 500;
         font-size: 16px;
         letter-spacing: -0.02em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-logo:hover {
+    color: #a1a1a1;
 }
 
 .footer-socials-list {
@@ -33,17 +42,36 @@
         justify-content: flex-start;
         flex-direction: row;
         gap: 8px;
-        width: 34px;
-        height: 34px;
+       
+}
+
+.footer-socials-link {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+}
+
+.footer-socials-link:hover>.footer-socials-icon{
+fill: #a1a1a1;
+}
+.footer-socials-link:focus>.footer-socials-icon {
+    fill: #a1a1a1;
 }
 
 .footer-socials-item {
         border: 1px solid rgba(251, 251, 251, 0.1);
         border-radius: 10px;
         padding: 8px;
+        width: 34px;
+        height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    
 }
+
 .footer-socials-icon {
-    fill: #fbfbfb;;
+    fill: #fbfbfb;
+    align-self: center;
+   
 }
 
 .footer-phone {
@@ -60,6 +88,15 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.number:hover {
+    color: #a1a1a1;
+}
+
+.number:focus {
+    color: #a1a1a1;
 }
 
 .footer-slogan {
@@ -93,6 +130,17 @@
     text-align: center;
 }
 
+.footer-nav-item {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-nav-item:hover {
+    color: #a1a1a1;
+}
+.footer-nav-item:focus {
+    color: #a1a1a1;
+}
+
 .footer-address {
     font-style: normal;                             
     font-weight: 500;
@@ -100,6 +148,11 @@
     line-height: 1.33333;
     text-align: left;
     max-width: 83px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-address:hover {
+    color: #a1a1a1;
 }
 
 .footer-bottom {
@@ -144,7 +197,16 @@
                 height: 14px;
 }
 
+.footer-info-link:hover {
+    color: #a1a1a1;
+}
+
 @media screen and (min-width: 768px) {
+
+.footer {
+        padding-bottom: 32px;
+    }
+
 .footer-container {padding: 40px 40px 28px 40px;
 } 
 

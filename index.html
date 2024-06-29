@@ -15,7 +15,7 @@
     
     
     <script type="module" crossorigin src="/project-03-html/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-03-html/assets/index-a5c22749.css">
+    <link rel="stylesheet" href="/project-03-html/assets/index-129d1ae5.css">
   </head>
   <body>
     <header class="header"></header>
@@ -55,7 +55,97 @@
 
       
       
-      
+      <section class="contact">
+  <h2 class="contact-title">Contact Us</h2>
+  <div class="contact-row-container">
+    <div class="contact-form-container">
+      <p class="contact-form-title">
+        Please use the form below to contact us. Enter your name, email, phone,
+        and message and we'll get back to you shortly.
+      </p>
+      <form class="contact-order-form">
+        <div class="contact-order-form-container">
+          <label class="contact-form-label visually-hidden" for="user-name"
+            >Name</label
+          >
+          <div class="contact-input-container">
+            <input
+              class="contact-form-input"
+              id="user-name"
+              type="text"
+              name="user-name"
+              placeholder="Name"
+            />
+          </div>
+        </div>
+        <div class="contact-order-form-container">
+          <label class="contact-form-label visually-hidden" for="email"
+            >Email</label
+          >
+          <div class="contact-input-container">
+            <input
+              class="contact-form-input"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Email"
+            />
+          </div>
+        </div>
+        <div class="contact-order-form-container">
+          <label class="contact-form-label visually-hidden" for="phone"
+            >Pnone</label
+          >
+          <div class="contact-input-container">
+            <input
+              class="contact-form-input"
+              id="phone"
+              type="tel"
+              name="phone"
+              placeholder="+380"
+            />
+          </div>
+        </div>
+        <div class="contact-textarea-container">
+          <label class="contact-form-label visually-hidden" for="user-comment"
+            >Comment</label
+          >
+          <textarea
+            class="contact-form-textarea"
+            id="user-comment"
+            name="user-comment"
+            placeholder="Comment"
+            rows="5"
+            cols="50"
+          ></textarea>
+        </div>
+      </form>
+      <button type="submit" class="contact-submit-button">Send</button>
+    </div>
+    <div class="contact-image-container">
+      <picture>
+        <source
+          srcset="/project-03-html/assets/contact-mob-1x-e135c0ed.jpg , /project-03-html/assets/contact-mob-2x-3e93f708.jpg "
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="/project-03-html/assets/contact-tab-1x-0761136c.jpg , /project-03-html/assets/contact-tab-2x-677f6292.jpg "
+          media="(min-width: 768px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="/project-03-html/assets/contact-desk-1x-e33854be.jpg , /project-03-html/assets/contact-desk-2x-92157cb2.jpg "
+          media="(min-width: 1280px)"
+        />
+        <img
+          src="/project-03-html/assets/contact-desk-1x-e33854be.jpg"
+          alt="Contact us"
+          class="contact-image"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
     </main>
 
     

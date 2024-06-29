@@ -1,25 +1,3 @@
-.footer {
-    max-width: 375px;
-    height: 100%;
-    padding: 0 20px;
-    margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-    .footer {
-        max-width: 768px;
-        padding: 0 32px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .footer {
-        max-width: 1280px;
-        padding: 0 65px;
-    }
-    
-}
-
 .footer-container {
     background-color: #0c0c0c;
     color: #fbfbfb;
@@ -32,7 +10,7 @@
 .footer-top {
     display: flex;
     flex-direction: column;
-    margin-bottom: 92px;                    /*  ??????? зробити jastify-content: sb  ???????  */
+    margin-bottom: 92px;                    
  
 }
 
@@ -40,7 +18,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 20px;                    /*  ??????? зробити jastify-content: sb  ???????  */
+    margin-bottom: 20px;                    
 }
 
 .footer-logo {
@@ -78,13 +56,13 @@
     border-radius: 16px;
     width: 152px;
     height: 44px;
-    padding: 14px 0;
-    font-family: "Gilroy", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 40px;
 }
 
 .footer-slogan {
-    font-family: "Gilroy", sans-serif;
     font-weight: 600;
         font-size: 20px;
         line-height: 1.2;
@@ -97,7 +75,7 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin-bottom: 24px;                           /*    ??????? зробити jastify-content: sb  ???????  */
+    margin-bottom: 24px;                           
 }
 
 .footer-nav-list {
@@ -109,24 +87,13 @@
     gap: 8px 16px;
     max-width: 147px;
     height: 64px;
-    font-family: "Gilroy", sans-serif;              /*    ?????? має прийти з основних стилів ??????    */ 
     font-weight: 500;
     font-size: 12px;
     line-height: 1.33333;
     text-align: center;
 }
 
-/* .footer-nav-link {
-    font-family: "Gilroy", sans-serif;
-       
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 1.33333;
-        text-align: center;
-} */
-
 .footer-address {
-    font-family: "Gilroy", sans-serif;              
     font-style: normal;                             
     font-weight: 500;
     font-size: 12px;
@@ -136,8 +103,6 @@
 }
 
 .footer-bottom {
-    font-family: "Gilroy", sans-serif;
-    font-style: normal;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -154,7 +119,6 @@
    }
 
 .footer-copyright {
-          font-family: "Gilroy", sans-serif;
         font-weight: 500;
         font-size: 10px;
         line-height: 1.4;
@@ -181,7 +145,7 @@
 }
 
 @media screen and (min-width: 768px) {
-.footer-container {padding: 40px 40px 28px;
+.footer-container {padding: 40px 40px 28px 40px;
 } 
 
 .footer-top {
@@ -190,7 +154,7 @@
         justify-content: space-between;
         align-items: start;
        row-gap: 86px;
-    margin-bottom: 100px;          /*  ??????? зробити jastify-content: sb  ???????  */
+    margin-bottom: 100px;          
 }
 
 .footer-top-link {
@@ -209,9 +173,8 @@ font-size: 20px;
 .footer-phone {
     font-size: 14px;
     line-height: 1.29;
-    width: 152px;
-    height: 44px;
-    padding: 15px 0;
+    width: 160px;
+    height: 48px;
     margin-bottom: 0;
 }
 
@@ -269,4 +232,46 @@ line-height: 1.29;
 width: 204px;
 height: 18px;
 }
+}
+
+
+@media screen and (min-width: 1280px) {
+   .footer {
+    padding: 0 32px 32px;
+   }
+   
+    .footer-container {
+    min-width: 1216px;
+   }
+
+   .footer-top {
+    margin-bottom: 126px;
+    }
+
+    .footer-top-link {
+        order: 1;
+    }
+
+   .footer-phone {
+    order: 3;
+   }
+
+   .footer-slogan {
+    order: 2;
+   }
+
+   .footer-center {
+       margin-bottom: 26px;
+   }
+
+   .footer-nav-list {
+    gap: 40px;
+    max-width: 505px;
+   }
+
+   .footer-bottom::before {
+       content: '';
+       width: 1136px;
+
+   }
 }

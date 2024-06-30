@@ -40,7 +40,7 @@ button {
   background-color: transparent;
   background: none;
 }
-/* .container {
+.container {
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
@@ -57,19 +57,17 @@ button {
     max-width: 768px;
     padding: 0 32px;
   }
-} */
-.container {
+}
+/* .container {
   max-width: 375px; 
   padding: 0 20px; 
   margin: 0 auto;
-}
-@media screen and (min-width: 768px) {
+} */
+
+@media screen and (min-width: 1280px) {
   .container {
-     max-width: 768px; 
-     padding: 0 32px;} 
+    max-width: 1280px;
+    padding: 0 65px;
   }
-  @media screen and (min-width: 1280px) {
-    .container {
-      max-width: 1280px; 
-      padding: 0 65px;}
-    }        
+}
+

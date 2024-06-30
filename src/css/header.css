@@ -67,9 +67,9 @@
     pointer-events: none;
     background-color: #0c0c0c;
     background-image: url(../img/header/header-mob-1x.png);
-    visibility: hidden;
+    /* visibility: hidden;
     opacity: 0;
-    pointer-events: none;
+    pointer-events: none; */
   }
   @media screen and(min-resolution: 192dpi) {
     .mob-menu {
@@ -80,7 +80,7 @@
   .mob-btn-close {
     display: block;
     margin-left: auto;
-    margin-bottom: 186px;
+
     position: absolute;
     top: 20px;
     right: 20px;
@@ -89,7 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: transparent;
+    /* background-color: transparent; */
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
@@ -99,6 +99,7 @@
   .mob-close-svg {
     fill: #fff;
   }
+
   .nav-mob {
     display: flex;
     align-items: center;
@@ -119,7 +120,20 @@
     text-align: center;
     color: #fbfbfb;
   }
-
+  .mob-tag.cur::before {
+    content: '';
+    position: absolute;
+    bottom: -0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #3350e9;
+    border-radius: 50%;
+  }
+  .cur {
+    position: relative;
+  }
   .mob-social {
     padding-left: 0;
     margin: 0;
@@ -228,7 +242,7 @@
     width: 36px;
     height: 36px;
   }
-  .current::after {
+  .nav-tag.current::after {
     content: '';
     position: absolute;
     bottom: -0.75rem;

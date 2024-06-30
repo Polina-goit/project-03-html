@@ -71,9 +71,9 @@
     pointer-events: none;
     background-color: #0c0c0c;
     background-image: url(../img/header/header-mob-1x.png);
-    visibility: hidden;
+    /* visibility: hidden;
     opacity: 0;
-    pointer-events: none;
+    pointer-events: none; */
   }
   @media screen and(min-resolution: 192dpi) {
     .mob-menu {

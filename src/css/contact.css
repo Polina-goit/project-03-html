@@ -1,3 +1,5 @@
+
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -10,6 +12,7 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 ::placeholder {
   font-weight: 400;
   font-size: 14px;
@@ -47,6 +50,7 @@
     background: #f3f3f3;
     padding: 48px 28px;
 
+    margin-bottom: 20px;
 
 }
 .contact-form-title {
@@ -150,6 +154,7 @@
         width: 704px;
         height: 556px;
         padding: 50px 122px;
+        margin-bottom: 40px;
     }
     .contact-form-title {
         font-size: 16px;

@@ -1,10 +1,9 @@
 @media (min-width: 375px) {
   .conteiner {
     min-width: 375px;
-  }
-  .header {
     padding: 20px 0;
   }
+
   .header .conteiner {
     display: flex;
   }
@@ -39,9 +38,6 @@
 
   .header-social-list {
     display: none;
-  }
-
-  .header-svg {
   }
 
   .mob-menu-bt {
@@ -81,8 +77,6 @@
     }
   }
 
-  .mob-nav-div {
-  }
   .mob-btn-close {
     display: block;
     margin-left: auto;
@@ -116,9 +110,6 @@
   }
   .mob-link-tag:not(:last-child) {
     margin-bottom: 32px;
-  }
-
-  .mob-link-tag {
   }
 
   .mob-tag {
@@ -237,16 +228,16 @@
     width: 36px;
     height: 36px;
   }
-  .current:after {
+  .current::after {
     content: '';
-    width: 100%;
     position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 8px;
+    bottom: -0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
     width: 8px;
+    height: 8px;
     background-color: #3350e9;
-    border-radius: 100%;
+    border-radius: 50%;
   }
   .current {
     position: relative;

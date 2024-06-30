@@ -36,16 +36,18 @@
   width: 160px;
 }
 .contact-form-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  border-radius: 30px;
-  width: 335px;
-  height: 512px;
-  background: #f3f3f3;
-  padding: 48px 28px;
-  margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 335px;
+    height: 512px;
+    background: #f3f3f3;
+    padding: 48px 28px;
+
+
 }
 .contact-form-title {
   width: 279px;
@@ -148,7 +150,6 @@
         width: 704px;
         height: 556px;
         padding: 50px 122px;
-        margin-bottom: 40px;
     }
     .contact-form-title {
         font-size: 16px;

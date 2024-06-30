@@ -19,7 +19,9 @@
 .contact {
     padding: 0px 20px;
     width: 375px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
 }
 .contact-title {
     font-weight: 600;
@@ -131,6 +133,7 @@
     .contact {
         padding: 0px 32px;
         width: 768px;
+        margin-bottom: 80px;
     }
     .contact-title {
         font-size: 48px;
@@ -196,6 +199,7 @@
     .contact {
         padding: 0px 65px;
         width: 1280px;
+        margin-bottom: 100px;
     }
     .contact-title {
         font-weight: 600;

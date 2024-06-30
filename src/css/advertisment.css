@@ -2,6 +2,7 @@
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 /* .section {
   padding: 30px 0;
@@ -18,13 +19,13 @@
   max-width: 1280px;
   border-radius: 30px;
   padding: 60px 28px;
-  background-image: url(./img/advertis/advers-mob-bg-1x.png);
+  background-image: url(../img/advertis/advers-mob-bg-1x.png);
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
   .advertisement-bg {
-    background-image: url(./img/advertis/advers-mob-bg-2x.png);
+    background-image: url(../img/advertis/advers-mob-bg-2x.png);
   }
 }
 .advertisement-text {
@@ -63,20 +64,21 @@
   .container {
     max-width: 768px;
     padding: 0 32px;
+    margin-bottom: 80px;
   }
   /* .section {
     padding: 40px 0;
   } */
   .advertisement-bg {
     gap: 32px;
-    background-image: url(./img/advertis/advers-tab-bg-1x.png);
+    background-image: url(../img/advertis/advers-tab-bg-1x.png);
     padding: 80px 64px;
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .advertisement-bg {
-      background-image: url(./img/advertis/advers-tab-bg-2x);
+      background-image: url(../img/advertis/advers-tab-bg-2x);
     }
   }
   .advertisement-text {
@@ -89,6 +91,7 @@
   .container {
     max-width: 1280px;
     padding: 0 65px;
+    margin-bottom: 100px;
   }
   /* .section {
     padding: 50px 0;
@@ -101,14 +104,14 @@
     justify-content: space-between;
     align-items: start;
     gap: 32px;
-    background-image: url(./img/advertis/advers-deskbg-1x.png);
+    background-image: url(../img/advertis/advers-deskbg-1x.png);
     padding: 83px 80px;
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .advertisement-bg {
-      background-image: url(./img/advertis/advers-deskbg-2x);
+      background-image: url(../img/advertis/advers-deskbg-2x);
     }
   }
 }

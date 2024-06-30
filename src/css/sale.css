@@ -1,34 +1,36 @@
 .sale {
-    
-width: 100%;
-    max-width: 375px;
+    /* width: 100%;
+    padding: 0 20px;
+    max-width: 375px; */
     margin: 0 auto;
-    margin-bottom: 80px;
-    
+    margin-bottom: 60px;
 }
 
 .sale-title {
     margin-bottom: 24px;
-   
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 32px;
-        letter-spacing: -0.02em;
-        text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: start;
 }
 
 .sale-gallery {
     display: flex;
     flex-direction: column;
-     margin-bottom: 20px;
+    margin-bottom: 20px;
     width: 100%;
+    gap: 20px;
+}
+
+.sale-gallery:last-child {
+    gap: 0;
 }
 
 .small-images {
     display: flex;
-    
     gap: 5px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .small-image {
@@ -36,23 +38,23 @@ width: 100%;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 16px;
     padding: 13px;
-    
-        height: auto;
-        object-fit: cover;
+    height: auto;
+    object-fit: contain;
 }
 
 .large-images {
-width: 100%;
+    /* width: 100%; */
     display: flex;
-    
+    background-color: rgba(243, 243, 243, 1);
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
 }
 
 .large-image {
     padding: 50px;
-    background-color: rgba(243, 243, 243, 1);
+    /* background-color: rgba(243, 243, 243, 1);
     border: 1px solid rgba(12, 12, 12, 0.05);
-    border-radius: 16px;
-    
+    border-radius: 16px; */
     height: auto;
     object-fit: cover;
 }
@@ -61,16 +63,12 @@ width: 100%;
     background-color: #3350E9;
     border-radius: 30px;
     padding: 48px 28px;
-
-
     height: auto;
 }
 
 .sale-description-text-container {
     margin: 0;
 }
-
-
 
 .sale-description-title {
     color: #FBFBFB;
@@ -98,7 +96,6 @@ width: 100%;
     display: flex;
     gap: 9px;
     margin-bottom: 28px;
-
 }
 
 .sale-price-list-new {
@@ -110,7 +107,6 @@ width: 100%;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: -0.02em;
-
     padding: 8px 12px;
 }
 
@@ -120,7 +116,6 @@ width: 100%;
     font-weight: 400;
     line-height: 14px;
     letter-spacing: -0.02em;
-
     color: rgba(251, 251, 251, 0.5);
     text-decoration: line-through;
     display: flex;
@@ -128,7 +123,6 @@ width: 100%;
 }
 
 .sale-description-text {
-
     font-family: Gilroy;
     font-size: 14px;
     font-weight: 500;
@@ -143,7 +137,6 @@ width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    
 }
 
 .sale-description-item {
@@ -166,146 +159,139 @@ width: 100%;
 }
 
 @media screen and (min-width: 375px) {
-    .sale {
+
+    /* .sale {
         max-width: 375px;
+    } */
+    .small-images {
+        justify-content: space-between;
     }
 
-    .small-images {
-    justify-content: space-between;
-    }
-    
     .large-images {
         display: flex;
         align-items: center;
-        width: calc(100% - 100px);
+        /* width: calc(100% - 100px); */
     }
 
     .large-image {
-        width: 100%;
+        /* width: 100%; */
         height: auto;
+        min-width: 80px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .sale {
-        max-width: 768px;
-        padding: 0 32px;
+        /* max-width: 768px;
+        padding: 0 32px; */
+        margin-bottom: 80px;
     }
 
-        .sale-gallery {
-            display: flex;
-            flex-direction: row;
-            margin-bottom: 20px;
-            width: 100%;
-        }
+    .sale-title {
+        font-size: 48px;
+        line-height: 0.91667;
+    }
 
-        .small-images {
-            display: flex;
-            flex-direction: column;
-            margin: 0;
-            gap: 10px;
-            
-        }
+    .sale-gallery {
+        display: flex;
+        flex-direction: row;
+        /* width: 100%; */
+    }
 
-                .small-image {
-                 width: 100%;
-                }
+    .small-images {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0; */
+        gap: 10px;
+    }
 
-                 .large-images {
-                     display: flex;
-                     align-items: normal;
-                    width: calc(100% - 100px);
-                     justify-content: center;
-                 }
+    .small-image {
+        /* width: 100%; */
+        min-width: 132px;
+    }
 
-                                 .large-image {
-                                    display: flex;
-                                    padding: auto;
-                                    
-                                 }
+    .large-images {
+        display: flex;
+        align-items: center;
+        /* align-items: normal; */
+        width: calc(100% - 100px);
+        justify-content: center;
+    }
 
-                                        .sale-description {
-                                            
-                                            padding: 60px;
-                                            max-width: 704px;
-    
-                                            
-                                           
-                                                                 }
+    /* .large-image {
+        display: flex;
+        padding: auto;
+    } */
+    .sale-description {
+        padding: 60px;
+        max-width: 704px;
+    }
 
-                        .sale-description-title {
-                            color: #FBFBFB;
-                            
-                                font-family: Gilroy;
-                                font-size: 32px;
-                                font-weight: 600;
-                                line-height: 36px;
-                                letter-spacing: -0.02em;
-                                text-align: left;
-                        }
+    .sale-description-title {
+        color: #FBFBFB;
+        font-family: Gilroy;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
 
-                                                .sale-article-text {
-                                                    font-family: Gilroy;
-                                                        font-size: 14px;
-                                                        font-weight: 400;
-                                                        line-height: 18px;
-                                                        letter-spacing: -0.02em;
-                                                        text-align: left;
-                                                }
+    .sale-article-text {
+        font-family: Gilroy;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
 
-                                                  .sale-price {
-                                                      
-                                                      margin-bottom: 30px;
+    .sale-price {
+        margin-bottom: 30px;
+    }
 
-                                                   }
-                        
-                                               
-                        
-                                                .sale-price-list-new {
-                                                font-family: Gilroy;
-                                                    font-size: 20px;
-                                                    font-weight: 600;
-                                                    line-height: 20px;
-                                                    letter-spacing: -0.02em;
-                                                    text-align: left;
-                                                }
-                        
-                                                .sale-price-list-old {
-                                                    font-family: Gilroy;
-                                                        font-size: 12px;
-                                                        font-weight: 400;
-                                                        line-height: 14px;
-                                                        letter-spacing: -0.02em;
-                                                        text-align: left;
-                                                }
-                        
-                                                .sale-description-text {
-                        
-                                                    
-                                                        font-family: Gilroy;
-                                                        font-size: 16px;
-                                                        font-weight: 500;
-                                                        line-height: 20px;
-                                                        letter-spacing: 0.03em;
-                                                        text-align: left;
-                                                        margin-bottom: 40px ;
-                                                }
-                        
-                                                .sale-description-list {
-                                                    display: flex;
-                                                    flex-wrap: wrap;
-                                                    gap: 8px;
-                                                    width: 398px;
-                                                }
-                        
-                                                .sale-description-item {
-                                                    font-family: Gilroy;
-                                                        font-size: 14px;
-                                                        font-weight: 500;
-                                                        line-height: 18px;
-                                                        text-align: left;
-                                                }
+    .sale-price-list-new {
+        font-family: Gilroy;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
 
+    .sale-price-list-old {
+        font-family: Gilroy;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+
+    .sale-description-text {
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .sale-description-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        width: 398px;
+    }
+
+    .sale-description-item {
+        font-family: Gilroy;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -314,31 +300,38 @@ width: 100%;
         padding: 0 65px;
     }
 
-         .container-sale {
-            display: flex;
-            gap: 10px;
-            row-gap: 20px;
-            
-         }
+    .container-sale {
+        display: flex;
+        gap: 40px;
+        /* gap: 10px;
+        row-gap: 20px; */
+    }
 
-                 .sale-gallery {
-                    margin-right: 60px;
-                 }
+    .sale-gallery {
+        /* margin-right: 60px; */
+        margin-bottom: 0;
+    }
 
-                                 .small-images {
-                                     width: 30%;
-                                 }
-                
-                                 .large-images {
-                                     padding: 50px 80px;
-                                     width: 100%;
-                                 }
+    /* .small-images {
+        width: 30%;
+    } */
+    .small-image {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        min-width: 132px;
+    }
 
-                    .sale-description {
-                        max-width: 530px;
+    /* .large-images {
+        padding: 50px 80px;
+        width: 100%;
+    } */
+    .large-image {
+        padding: 80px 50px;
+        /* width: 100%; */
+    }
 
-                  }
-
-
+    .sale-description {
+        max-width: 530px;
+    }
 }
-

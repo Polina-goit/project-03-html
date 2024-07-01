@@ -7,9 +7,11 @@
   display: flex;
 }
 
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 
 .container-header {
   justify-content: space-between;
@@ -125,6 +127,11 @@
   text-align: center;
   color: #fbfbfb;
 }
+.mob-tag:hover:before,
+.mob-tag:focus:before {
+  opacity: 1;
+}
+
 .mob-tag.cur::before {
   content: '';
   position: absolute;

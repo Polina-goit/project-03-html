@@ -7,7 +7,7 @@
     max-width: 768px;
     padding: 0 32px;
   }
-  .hero-container-welcome {
+  .container {
     max-width: 720px;
     margin: 0 auto;
   }
@@ -18,9 +18,13 @@
   }
 
   .hero-title {
-    font-size: 36px;
-    line-height: 1.2;
+
     text-align: center;
+    font-weight: 600;
+font-size: 70px;
+line-height: 0.85714;
+letter-spacing: -0.02em;
+color: #0c0c0c;
   }
 
   .hero-item-text {
@@ -50,7 +54,7 @@
   max-width: 1280px;
   padding: 0 65px;
 }
-.hero-container-welcome {
+.container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -99,7 +103,7 @@
   max-width: 600px;
 }
 }
-.hero-container-welcome {
+.container {
   max-width: 375px;
   margin: 0 auto;
 }
@@ -113,7 +117,7 @@
 }
 .hero-title {
   font-family: "Gilroy", sans-serif;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-weight: 600;
   font-size: 40px;
   line-height: 0.95;

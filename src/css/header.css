@@ -1,12 +1,12 @@
-.conteiner {
+.container {
   min-width: 375px;
   padding: 20px 0;
 }
 
-.header .conteiner {
+.header .container {
   display: flex;
 }
-.conteiner-header {
+.container-header {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
@@ -181,20 +181,20 @@
 }
 
 @media screen and (min-width: 768px) {
-  .conteiner {
+  .container {
     min-width: 768px;
   }
-  .header .conteiner {
+  .header .container {
     align-items: center;
   }
   .mob-menu {
     max-width: 330px;
     max-height: 1024px;
-    background-image: url(../img/header/header-tab-1x.png);
+    background-image: url(./img/header/header-tab-1x.png);
   }
   @media screen and(min-resolution: 192dpi) {
     .mob-menu {
-      background-image: url(../img/header/header-tab-2x.png);
+      background-image: url(./img/header/header-tab-2x.png);
     }
   }
 }

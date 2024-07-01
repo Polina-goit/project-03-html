@@ -71,6 +71,12 @@
     opacity: 0;
     pointer-events: none;
   }
+  .mob-menu.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
   @media screen and(min-resolution: 192dpi) {
     .mob-menu {
       background-image: url(../img/header/header-mob-2x.png);

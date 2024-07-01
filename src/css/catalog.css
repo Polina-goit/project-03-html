@@ -5,7 +5,7 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  margin-left: 20px;
+
   margin-bottom: 24px;
 }
 
@@ -98,7 +98,6 @@
     line-height: 0.92;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    margin-left: 32px;
   }
 
   .current {

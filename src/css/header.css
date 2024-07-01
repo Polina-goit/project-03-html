@@ -80,7 +80,7 @@
   .mob-btn-close {
     display: block;
     margin-left: auto;
-    margin-bottom: 186px;
+
     position: absolute;
     top: 20px;
     right: 20px;
@@ -99,6 +99,7 @@
   .mob-close-svg {
     fill: #fff;
   }
+
   .nav-mob {
     display: flex;
     align-items: center;
@@ -119,7 +120,20 @@
     text-align: center;
     color: #fbfbfb;
   }
-
+  .mob-tag.cur::before {
+    content: '';
+    position: absolute;
+    bottom: -0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #3350e9;
+    border-radius: 50%;
+  }
+  .cur {
+    position: relative;
+  }
   .mob-social {
     padding-left: 0;
     margin: 0;
@@ -143,7 +157,12 @@
   .mob-svg {
     fill: #fff;
   }
-
+  .mob-svg:hover {
+    fill: #a1a1a1;
+  }
+  .mob-svg:focus {
+    fill: #a1a1a1;
+  }
   .mob-social-icon {
     border: 1px solid rgba(251, 251, 251, 0.1);
     border-radius: 10px;
@@ -228,7 +247,7 @@
     width: 36px;
     height: 36px;
   }
-  .current::after {
+  .nav-tag.current::after {
     content: '';
     position: absolute;
     bottom: -0.75rem;

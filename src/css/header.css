@@ -63,7 +63,6 @@
   overflow: auto;
   max-width: 200px;
   max-height: 812px;
-  pointer-events: none;
   background-color: #0c0c0c;
   background-image: url(../img/header/header-mob-1x.png);
   transform: translateX(100%);

@@ -15,7 +15,7 @@
     
     
     <script type="module" crossorigin src="/project-03-html/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-03-html/assets/index-0b9330a6.css">
+    <link rel="stylesheet" href="/project-03-html/assets/index-d7d9f826.css">
   </head>
   <body>
     <header class="header">
@@ -27,19 +27,19 @@
           <a class="nav-tag current" href="./index.html/">Home</a>
         </li>
         <li class="nav-link">
-          <a class="nav-tag" href="./index.html">About Us</a>
+          <a class="nav-tag" href="#about-section">About Us</a>
         </li>
         <li class="nav-link">
-          <a class="nav-tag" href="./index.html">Catalog</a>
+          <a class="nav-tag" href="#catalog">Catalog</a>
         </li>
         <li class="nav-link">
-          <a class="nav-tag" href="./index.html">Sale</a>
+          <a class="nav-tag" href="#sale">Sale</a>
         </li>
         <li class="nav-link">
-          <a class="nav-tag" href="./index.html">Reviews</a>
+          <a class="nav-tag" href="#">Reviews</a>
         </li>
         <li class="nav-link">
-          <a class="nav-tag" href="./index.html">Contact Us</a>
+          <a class="nav-tag" href="#contact" id="Contact Us">Contact Us</a>
         </li>
       </ul>
     </nav>
@@ -78,40 +78,40 @@
         </a>
       </li>
     </ul>
-    <button class="mob-menu-bt" type="button">
+    <button class="mob-menu-bt" type="button" is-open>
       <svg class="mob-open-svg" width="34" height="34">
-        <use href="../img/icons.svg#icon-open-menu"></use>
+        <use href="/project-03-html/assets/icons-15364ace.svg#icon-open-menu"></use>
       </svg>
     </button>
   </div>
-  <div class="mob-menu" is-open>
+  <div class="mob-menu">
     <div class="mob-nav-div">
       <button class="mob-btn-close" type="button">
-        <a class="" href="./index.html">
+        <a class="close-btn" href="./index.html">
           <svg class="mob-close-svg" width="20" height="20">
-            <use href="../img/icons.svg#icon-close-menu"></use>
+            <use href="/project-03-html/assets/icons-15364ace.svg#icon-close-menu"></use>
           </svg>
         </a>
       </button>
       <nav class="nav-mob">
         <ul class="mob-link">
           <li class="mob-link-tag">
-            <a class="mob-tag current" href="./index.html">Home</a>
+            <a class="mob-tag cur" href="./index.html">Home</a>
           </li>
           <li class="mob-link-tag">
-            <a class="mob-tag" href="./index.html">About Us</a>
+            <a class="mob-tag" href="#about-section">About Us</a>
           </li>
           <li class="mob-link-tag">
-            <a class="mob-tag" href="./index.html">Catalog</a>
+            <a class="mob-tag" href="#catalog">Catalog</a>
           </li>
           <li class="mob-link-tag">
-            <a class="mob-tag" href="./index.html">Sale</a>
+            <a class="mob-tag" href="#sale">Sale</a>
           </li>
           <li class="mob-link-tag">
-            <a class="mob-tag" href="./index.html">Reviews</a>
+            <a class="mob-tag" href="#">Reviews</a>
           </li>
           <li class="mob-link-tag">
-            <a class="mob-tag" href="./index.html">Contact Us</a>
+            <a class="mob-tag" href="#contact">Contact Us</a>
           </li>
         </ul>
       </nav>
@@ -174,7 +174,7 @@
       <ul class="hero-list">
         <li class="hero-item">
           <img
-            src="../img/hero/foto-victoria.jpg"
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIADgAOAMBIgACEQEDEQH/xAAyAAACAgMBAQAAAAAAAAAAAAAABgUHAgMEAQgBAAMBAQAAAAAAAAAAAAAAAAABBAMF/9oADAMBAAIQAxAAAAC/zyNBVQ+hijsYW2vHnfDrPDXLRDS+lOkWjHo53U2viqxb4d5iVw5a9/yOF9KdB27JXYrTXtNs+vjmKpJGFAKMiAB7s0E5wBr/xAAwEAACAQMDAgQEBQUAAAAAAAABAgMABBEFBhIhQRMUMTIHEEJhIiNRUoFxcqGisf/aAAgBAQABPwCmkC1uXeLaYz21nAJbnuW9iVBvvdZeRWFu3AeJ1jwxWtubnGrx4eHw5QuSOxpZA3ydsCrufwbaeY/QjNVrH5y6MknUFyxJ75NNp9r4yzmEfhBBwPpYYNWdtb2cyNCOnLkCP8j+aBx1FI3IVKctWthjpV3x/Zk/0Bq5TUAYTa24MfQ55MD/AK1yv7jRlkjhBuM4KknAqxjvorVDdJEMED8vP/DUWfDTPrxFRnDU/uNTRJNE8TjKsCCKMb2hMMn4eKdwR2+9aTeQmBYxfREgnAXvTXsckhhQBmX1B7mrOSUxhZ5Y2m9WCDiAD9iTSe4VIMH5bwuLW18gzH8+aRkUfuVVLGotbs4UKQQt5hugHatMTy8AlZ+mMu5BYn7ACtMu7a6EjxRFXXAbkhRuozgg1GMmr+1nls51gn8GZkISTiG4MfQ4Pritz6pvOzv57LVtSvBIp9A5SNx2ZQuARS3dys0cxmdnRgwLEmtDVb6RLrHtQN/JrX9bk29oLXUPA3EriOEN1AJ71bzbl3Xr0JhkeS8fC80HARoPqJX0ArRdOfTdNtbSS6luHjTDzSsWZz3PX5bh2zo2v23l762D4B4SDo6E90Nav8GdXgdjpt7DPH+kuY3qx2J8Q9PvEntbHi6d/HhKkVd7A3DuW6tZtauoLS3iQDwIMyGtA21pG37bwNPtgmfe56u/9x+X/8QAHhEBAAEEAwEBAAAAAAAAAAAAAQIABBARAyExIEH/2gAIAQIBAT8Ap5pba4pso9+mE2JTvxKt3uWbiHZKreD7+fAAaMf/xAAgEQABAwQCAwAAAAAAAAAAAAABAAIRAwQQEiExIkFR/9oACAEDAQE/AE2gICqs0dgcEJrZEglXTPFp+ZtqhgtVxUaRr7z10iSTJx//2Q=="
             alt="foto-victoria"
             width="44"
             height="44"
@@ -182,7 +182,7 @@
         </li>
         <li class="hero-item">
           <img
-            src="../img/hero/foto-john.jpg"
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIADgAOAMBIgACEQEDEQH/xAAzAAABBAMBAAAAAAAAAAAAAAAAAwQGBwECBQgBAAMBAQEAAAAAAAAAAAAAAAABAwQCBf/aAAwDAQACEAMQAAAAv8w1CN1T3Hebava3nL0HbM7MHc0EFdQrOIzyusHrc70pQV+6sChqVhsy6Xl/pXDQfbtWF3E6jclpLcXGs8gAph8DUssME8gB/8QAKxAAAQMDAwMDAwUAAAAAAAAAAQIDBAAFEQYSIRATQQcycRRRUhYiMTNT/9oACAEBAAE/AKU4E1qDWFssYCHlFyQRlLDfKqufqbqYOgsxWorYOcKRuJrSfqWzd5bcCcwGJDnDakcoWaS4FdFqwKJzUKA0/fr7cnxuP1biGirwEHbU6LCl5S40058gGnbTGi3O2yIjaWnWZbJBHkbxQOKQrcKdOVU4rYha8Z2pJx8VMt3fcedShC8SFuBP8gbwc8Hg8mv0/LEaY8ZCm1AKUlTYDfPhJ2+KsceUifHcddUgd1Ctx3EApUDynno2cKpfuPS6Pptt0SySA28ncKvrktUfdKkIbU6FBCGwfarwVAGtJB64XKHEda5QoqXj/NHRHuFODBqZMjQY7kmS6G2Ue5RrUdsbvcAPxnEuAp3suINXReo2ZKY8pLqdnsHitC6cFqtwmPqK5kxtC3D+CTyEDo2MmpLbi2XO0sJXtO1RGQD4OK1hctS/XLh3Z1QLZ4QBhsjwtNaX1jJsq+w7l2Es5KPKD901LZj3GOxKYLb8dz9yTwa05eYc9h2KghD8NZZcaJ5ATwFfBoDNITtHS+6dtV7jBidHCsZ2LHC0Z8g1dPSW6MqKrdLafb+zuW11pPT+sbRKMaTb8wXDyQ80Qg/kBmn9FSH73CujE0RVNf2dtGVLpCAnp//EABsRAQACAwEBAAAAAAAAAAAAAAEAEQIQEgME/9oACAECAQE/AJn9HOaVPPPvG9vY0s8rpvQXM/PlWBQbWynf/8QAHREBAAIDAQADAAAAAAAAAAAAAQIDABAREgQxQf/aAAgBAwEBPwDKvie6yTLi5bW1y8uwqlHsTLyJI5pcjaoH1w/MXqu+b//Z"
             alt="foto-john"
             width="44"
             height="44"
@@ -190,45 +190,45 @@
         </li>
         <li class="hero-item">
           <img
-            src="../img/hero/foto-anastasia.jpg"
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIADgAOAMBIgACEQEDEQH/xAAzAAABBAMBAAAAAAAAAAAAAAAAAgUGBwEDBAgBAAMAAwAAAAAAAAAAAAAAAAIDBAABBf/aAAwDAQACEAMQAAAAv8xDs2qsoRaEdspnXn+9Hz9pganRT1v1iJw/gnHbzOrUXoKkvQ1kXYJKZFMMlo5bXprcW2Wt0s1le641m8NeUBrIq0gp22ZAxfYAQ//EADAQAAIBBAECAggGAwAAAAAAAAECAwAEBRESBiETQQcQFBUiMVFhIzJCYnKBM1Jj/9oACAEBAAE/AKaQLWb6vsMW7Qj8a5A/xKfl/I1P6Us+LkxRY220T8PZ3rpXraHPPPay25tb6EbeEnYZf9kpZA3qdtCusc2+FwV1dxkCY6jh/m9YXx8lf8DIe5LyP8ya9146zXg5i8T6Eje6yNymNvLK/ttLLbyBu3bkn6lP2IpG2Aw8xukbkKlO2r0uyP7uxMC/ruWP9ha6IwT+y3EjuUlZ1HYlfv8AMVcdNXS3ZEk6MiSkySOTyA5eZNdR4PJWzWU0kpeOeLkvLsV79lP9V0+l8IpnmvxcQMIzbgJrgpQE/ESS1RnTU/5jXpMtLtrHGZCBQ4s7oF0P/TSisHe2V4Hksu0acUK/Rl7Gr5IGKmVTpW3sDkazkgvMika+1NskKLhNHZPlVnbJa2tvboAFijVAB+0apPzCpBo11DHip8RdQZSZIraVeJZjrR+YIrpjAXC4k3Htgl8V5Cp8PhyUMVDH+QFX2aGOuTBfwOreTDuDWH6We6yVtkp4vCtl4zRoTtnPzX1RjZqRdiuprfLZjqV7FonVF1wD/kSLzk+/KvxYspY43E3VwPZgGvJOZdETXwpxba7aup3SbhDfxDZJ+Nfkfuv0P1FYLL2+VshLCpXgeDjXYEDyoDdIvEeq5toZRojvrW/OrLpt8XA0UMniF3aSSR+zu7nZLVnMBe39s0ItRID+8LWN6ZzcNrDbe+Z7aBBoRxJCSP74VY2FtYwiOEH7knZJ9X//xAAgEQACAwABBAMAAAAAAAAAAAABAgADERAEEjFREyFx/9oACAECAQE/ACcEe9wTKbPkXc++H3tOQu2nfOzpySDxa/Yu5saut/GhvUrRUXBwQDDQhO6RAoHs/vH/xAAeEQACAwACAwEAAAAAAAAAAAABAgADERAhBBIxE//aAAgBAwEBPwADTkr8dGUS+r83zeuEz3XYEXAB8yeSACOKk92+5ncS2xej2stdnYluASIL3AzAYWJ4/9k="
             alt="foto-anastasia"
             width="44"
             height="44"
           />
         </li>
       </ul>
-      <p class="hero-scroll-text">Scroll down</p>
+      <a class="hero-scroll-text" href="#footer">Scroll down</a>
     </div>
-                <picture>
-                  <!-- Desktop screen -->
+    <picture>
+      <!-- Desktop screen -->
 
-                  <source
-                    media="(min-width: 1158px)"
-                    srcset="/project-03-html/assets/hero-desk-1x-0f46033a.png 1x, /project-03-html/assets/hero-desk-2x-bc4d5c55.png 2x"
-                    type="image/png"
-                  />
-                  <!-- Tablet screen -->
+      <source
+        media="(min-width: 1158px)"
+        srcset="/project-03-html/assets/hero-desk-1x-0f46033a.png 1x, /project-03-html/assets/hero-desk-2x-bc4d5c55.png 2x"
+        type="image/png"
+      />
+      <!-- Tablet screen -->
 
-                  <source
-                    media="(min-width: 768px)"
-                    srcset="/project-03-html/assets/hero-tab-1x-40e3d5f5.png 1x, /project-03-html/assets/hero-tab-2x-605fb049.png 2x"
-                    type="image/png"
-                  />
-                  <!-- Mobile screen -->
+      <source
+        media="(min-width: 768px)"
+        srcset="/project-03-html/assets/hero-tab-1x-40e3d5f5.png 1x, /project-03-html/assets/hero-tab-2x-605fb049.png 2x"
+        type="image/png"
+      />
+      <!-- Mobile screen -->
 
-                  <source
-                    media="(max-width: 767px)"
-                    srcset="/project-03-html/assets/hero-mob-1x-f0627f0a.png 1x, /project-03-html/assets/hero-mob-2x-ae09cfa6.png 2x"
-                    type="image/png"
-                  />
-                  <img
-                    class="hero-img"
-                    src="../img/hero/hero-desk-1x.png"
-                    alt="src/img/hero/hero-desk-1x.png"
-                    width="1150"
-                    loading="lazy"
-                  />
-                </picture>
+      <source
+        media="(max-width: 767px)"
+        srcset="/project-03-html/assets/hero-mob-1x-f0627f0a.png 1x, /project-03-html/assets/hero-mob-2x-ae09cfa6.png 2x"
+        type="image/png"
+      />
+      <img
+        class="hero-img"
+        src="/project-03-html/assets/hero-desk-1x-0f46033a.png"
+        alt="src/img/hero/hero-desk-1x.png"
+        width="1150"
+        loading="lazy"
+      />
+    </picture>
   </div>
 </section>
 

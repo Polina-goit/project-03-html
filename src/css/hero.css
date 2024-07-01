@@ -1,65 +1,151 @@
-
-
-
-
-@media screen and (min-width:768px){
-  .hero-container{
-    max-width: 768px;
-    padding: 0 32px;
-  }
+@media (min-width: 320px) and (max-width: 374px) {
   .container {
-    max-width: 720px;
+    width: 100%;
+    padding: 0 20px;
     margin: 0 auto;
+    max-width: 375px;
   }
+
 
   .hero-container-text {
-    max-width: 680px;
+    max-width: 335px;
     text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
   }
-
   .hero-title {
-
-    text-align: center;
+    font-family: "Gilroy", sans-serif;
+    margin-bottom: 20px;
     font-weight: 600;
-font-size: 70px;
-line-height: 0.85714;
-letter-spacing: -0.02em;
-color: #0c0c0c;
+    font-size: 40px;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    text-align: left;
+
   }
 
   .hero-item-text {
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    padding-bottom: 20px;
+    font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  text-align: left;
+  justify-content: center;
+  padding-bottom: 28px;
+  }
+  .hero-title-collection {
+    color: #3350e9;
+  }
+  element.style {
+    color: #3350e9;
+  }
+  .hero-list-img {
+    display: flex;
+  }
+  .hero-list-scroll {
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-decoration: underline;
+    padding-bottom: 28px;
+
+  }
+  .hero-item-img {
+  }
+  .hero-scroll-text {
+    margin-bottom: auto;
+  }
+  .hero-img {
+  }
+}
+/* --------------------------------------------- */
+/* ------------------768------------------------ */
+@media screen and (min-width:768px){
+
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .hero-block {
+    width: 704px;
+    display: flex;
+  }
+  .hero-container-text {
+    
   }
 
-  .hero-list {
-    justify-content: center;
+  .hero-title {
+    text-align: left;
+    font-weight: 600;
+line-height: 0.86;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+margin-bottom: 20px;
+width: 557px;
+  }
+
+  .hero-item-text {
+    width: 480px;
+    text-align: left;
     padding-bottom: 20px;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.7);
+  }
+  .hero-title-collection {
+    color: #3350e9;
+  }
+
+  .hero-list-scroll {
+    margin-bottom: 28px;
+    justify-content: space-between;
+    padding-left: 11px;
+    align-items: flex-end;
+  }
+
+  .hero-list-img {
+    justify-content: center;
+    padding-bottom: 28px;
+    display: flex;
   }
 
   .hero-scroll-text {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: right;
+    font-weight: 500;
+font-size: 20px;
+line-height: 1;
+letter-spacing: -0.02em;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #0c0c0c;
   }
 
   .hero-img {
     width: 100%;
     height: auto;
   }
+
+
 }
+
 @media screen and (min-width:1280px){
-.hero-container{
+/* .hero-container{
   max-width: 1280px;
   padding: 0 65px;
-}
+} */
 .container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 65px;
 }
 
 .hero-container-text {
@@ -102,57 +188,4 @@ color: #0c0c0c;
   height: auto;
   max-width: 600px;
 }
-}
-.container {
-  max-width: 375px;
-  margin: 0 auto;
-}
-
-.hero-container-text {
-  max-width: 335px;
-  text-align: center;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-right: 20px;
-}
-.hero-title {
-  font-family: "Gilroy", sans-serif;
-  margin-bottom: 20px;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 0.95;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
-  text-align: left;
-
-}
-
-.hero-item-text {
-  font-weight: 500;
-font-size: 14px;
-line-height: 1.29;
-letter-spacing: -0.02em;
-color: rgba(12, 12, 12, 0.7);
-text-align: left;
-justify-content: center;
-padding-bottom: 28px;
-}
-.hero-title-collection {
-  color: #3350e9;
-}
-element.style {
-  color: #3350e9;
-}
-.hero-list {
-  display: flex;
-}
-.hero-list-scroll {
-  display: flex;
-}
-.hero-item {
-}
-.hero-scroll-text {
-  margin-bottom: auto;
-}
-.hero-img {
 }

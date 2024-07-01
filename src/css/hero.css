@@ -7,22 +7,109 @@
     max-width: 768px;
     padding: 0 32px;
   }
+  .hero-container-welcome {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .hero-container-text {
+    max-width: 680px;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .hero-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .hero-list {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .hero-scroll-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+  }
 }
 @media screen and (min-width:1280px){
 .hero-container{
   max-width: 1280px;
   padding: 0 65px;
 }
+.hero-container-welcome {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-container-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+.hero-title {
+  font-size: 48px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.hero-item-text {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  padding-bottom: 28px;
+}
+
+.hero-list-scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hero-list {
+  justify-content: flex-end;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.hero-scroll-text {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
 }
 .hero-container-welcome {
   max-width: 375px;
-  padding: 0 20px;
   margin: 0 auto;
 }
 
 .hero-container-text {
   max-width: 335px;
   text-align: center;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 .hero-title {
   font-family: "Gilroy", sans-serif;

@@ -67,9 +67,6 @@
     pointer-events: none;
     background-color: #0c0c0c;
     background-image: url(../img/header/header-mob-1x.png);
-    /* visibility: hidden;
-    opacity: 0;
-    pointer-events: none; */
   }
   @media screen and(min-resolution: 192dpi) {
     .mob-menu {
@@ -89,7 +86,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: transparent; */
+    background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
@@ -157,7 +154,12 @@
   .mob-svg {
     fill: #fff;
   }
-
+  .mob-svg:hover {
+    fill: #a1a1a1;
+  }
+  .mob-svg:focus {
+    fill: #a1a1a1;
+  }
   .mob-social-icon {
     border: 1px solid rgba(251, 251, 251, 0.1);
     border-radius: 10px;

@@ -28,26 +28,13 @@
     </main>
 
     <load src="partials/footer.html" />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
 
     <script type="module" src="./main.js"></script>
-    <script>
-      (() => {
-        const refs = {
-          openMenuBtn: document.querySelectorAll('[data-menu-open]'),
-          closeMenuBtn: document.querySelectorAll('[data-menu-close]'),
-          menu: document.querySelector('[data-menu]'),
-        };
-        refs.openMenuBtn.forEach(element => {
-          element.addEventListener('click', toggleMenu);
-        });
-        refs.closeMenuBtn.forEach(element => {
-          element.addEventListener('click', toggleMenu);
-        });
-        function toggleMenu() {
-          refs.menu.classList.toggle('is-open');
-          document.body.classList.toggle('no-scroll');
-        }
-      })();
-    </script>
   </body>
 </html>

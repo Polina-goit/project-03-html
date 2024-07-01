@@ -3,4 +3,44 @@
     max-width: 768px;
     padding: 0 32px;
   }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .hero-container-text {
+    max-width: 680px;
+    text-align: center;
+  }
+
+  .hero-title {
+
+    text-align: center;
+    font-weight: 600;
+line-height: 0.86;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+  }
+
+  .hero-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .hero-list {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .hero-scroll-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+  }
 }

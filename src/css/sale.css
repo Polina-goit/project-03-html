@@ -296,7 +296,7 @@
 @media screen and (min-width: 1280px) {
   .sale {
     max-width: 1280px;
-    padding: 0 65px;
+    padding-bottom: 100px;
   }
 
   .container-sale {

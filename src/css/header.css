@@ -1,5 +1,5 @@
 .container {
-  min-width: 375px;
+  /* min-width: 375px; */
   padding: 20px 0;
 }
 
@@ -63,10 +63,11 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
+  z-index: 999;
   justify-content: space-between;
   overflow: auto;
   max-width: 200px;
-  max-height: 812px;
+  /* max-height: 812px; */
   background-color: #0c0c0c;
   background-image: url(./img/header/header-mob-1x.png);
   transform: translateX(100%);

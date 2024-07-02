@@ -118,6 +118,7 @@
 @media screen and (min-width: 1280px) {
   .catalog-section {
     padding-bottom: 100px;
+    padding-top: 100px;
   }
   .catalog-menu {
     display: flex;

@@ -13,8 +13,8 @@
 .container-about {
   background-color: #f3f3f3;
   border-radius: 30px;
-  padding: 40px 20px 128px 20px;
-  height: 446px;
+  padding: 40px 20px;
+  /* height: 446px; */
   margin-bottom: 20px;
 }
 

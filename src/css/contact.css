@@ -141,65 +141,60 @@
   background-color: #1f3cd4;
 }
 .contact-image {
-
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-=======
-
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
 }
 /* ____________________________END BASE-MOBILE___________________________ */
 /* ________________________________TABLET_______________________________ */
 
 @media screen and (min-width: 768px) {
-
-    .contact {
-        /* padding: 0px 32px; */
-        padding-bottom: 80px;
-    }
-    .contact-title {
-        font-size: 48px;
-        line-height: 0.9;
-        margin-bottom: 40px;
-    }
-    .contact-form-container {
-        padding: 50px 122px;
-        margin-bottom: 40px;
-        border-radius: 50px;
-    }
-    .contact-form-title {
-        font-size: 16px;
-        line-height: 1.25;
-        margin-bottom: 32px;
-    }
-    .contact-order-form-container{
-        height: 52px;
-    }
-    .contact-form-input {
-        padding-top: 16px;
-        padding-right: 18px;
-        padding-bottom: 16px;
-        padding-left: 18px;
-        font-size: 16px;
-        line-height: 1.25;
-    }
-    .contact-form-textarea { 
-        font-size: 16px;
-        line-height: 1.25;
-        padding-top: 16px;
-        padding-right: 16px;
-        padding-bottom: 16px;
-        padding-left: 16px;
-    }
-    .contact-submit-button {
-        padding: 17px 63px;
-        width: 160px;
-    }
-    .contact-image {
-        border-radius: 50px;
-    }
-
+  .contact {
+    /* padding: 0px 32px; */
+    padding-bottom: 80px;
+  }
+  .contact-title {
+    font-size: 48px;
+    line-height: 0.9;
+    margin-bottom: 40px;
+  }
+  .contact-form-container {
+    padding: 50px 122px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+  }
+  .contact-form-title {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 32px;
+  }
+  .contact-order-form-container {
+    height: 52px;
+  }
+  .contact-form-input {
+    padding-top: 16px;
+    padding-right: 18px;
+    padding-bottom: 16px;
+    padding-left: 18px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .contact-form-textarea {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+  }
+  .contact-submit-button {
+    padding: 17px 63px;
+    width: 160px;
+  }
+  .contact-image {
+    border-radius: 50px;
+  }
 }
 /* ______________________________END TABLET____________________________ */
 /* ______________________________DESKTOP______________________________ */

@@ -1,5 +1,6 @@
 .hero {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .hero-container-welcome {
   display: flex;
@@ -94,7 +95,8 @@
 }
 @media screen and (min-width: 768px) {
   .hero {
-    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .hero-container-welcome {
     flex-direction: row;
@@ -144,7 +146,8 @@
 }
 @media screen and (min-width: 1280px) {
   .hero {
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .hero-container-welcome {
     flex-direction: row;

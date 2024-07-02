@@ -9,6 +9,7 @@
 } */
 .advertisement {
   padding-bottom: 60px;
+  padding-top: 60px;
 }
 .advertisement-bg {
   display: flex;
@@ -22,13 +23,13 @@
   max-width: 1280px;
   border-radius: 30px;
   padding: 60px 28px;
-  background-image: url(../img/advertis/advers-mob-bg-1x.png);
+  background-image: url(./img/advertis/advers-mob-bg-1x.png);
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
   .advertisement-bg {
-    background-image: url(../img/advertis/advers-mob-bg-2x.png);
+    background-image: url(./img/advertis/advers-mob-bg-2x.png);
   }
 }
 .advertisement-text {

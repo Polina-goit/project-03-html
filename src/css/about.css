@@ -7,7 +7,7 @@
   flex-direction: column;
   gap: 20px;
 
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .container-about {
@@ -79,7 +79,7 @@
     padding: 80px 60px 188px 60px;
     border-radius: 50px;
     height: 512px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
   }
 
   .about-title {
@@ -109,7 +109,7 @@
 @media screen and (min-width: 1280px) {
   .section-about {
     height: 532px;
-    padding-bottom: 100px;
+    margin: 100px 0;
   }
   .container-about {
     width: 580px;

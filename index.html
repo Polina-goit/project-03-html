@@ -15,7 +15,7 @@
     
     
     <script type="module" crossorigin src="/project-03-html/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-03-html/assets/index-2fe6149d.css">
+    <link rel="stylesheet" href="/project-03-html/assets/index-320e59ee.css">
   </head>
   <body>
     <header class="header">
@@ -204,37 +204,30 @@
     </div>
 
     <picture>
-      <!-- Desktop screen -->
-
       <source
-        media="(min-width: 1158px)"
+      media="(max-width: 767px)"
+      srcset="/project-03-html/assets/hero-mob-1x-f0627f0a.png 1x, /project-03-html/assets/hero-mob-2x-ae09cfa6.png 2x"
+      type="image/png"
+    />
+    <source
+    media="(min-width: 768px)"
+    srcset="/project-03-html/assets/hero-tab-1x-40e3d5f5.png 1x, /project-03-html/assets/hero-tab-2x-605fb049.png 2x"
+    type="image/png"
+  />
+      <source
+        media="(min-width: 1280px)"
         srcset="/project-03-html/assets/hero-desk-1x-0f46033a.png 1x, /project-03-html/assets/hero-desk-2x-bc4d5c55.png 2x"
-        type="image/png"
-      />
-      <!-- Tablet screen -->
-
-      <source
-        media="(min-width: 768px)"
-        srcset="/project-03-html/assets/hero-tab-1x-40e3d5f5.png 1x, /project-03-html/assets/hero-tab-2x-605fb049.png 2x"
-        type="image/png"
-      />
-      <!-- Mobile screen -->
-
-      <source
-        media="(max-width: 767px)"
-        srcset="/project-03-html/assets/hero-mob-1x-f0627f0a.png 1x, /project-03-html/assets/hero-mob-2x-ae09cfa6.png 2x"
         type="image/png"
       />
       <img
         class="hero-img"
         src="/project-03-html/assets/hero-desk-1x-0f46033a.png"
-        alt="src/img/hero/hero-desk-1x.png"
-        width="1150"
-        loading="lazy"
+        alt="times"
       />
     </picture>
   </div>
 </section>
+
 
       <section class="section-about" id="about-section">
   <div class="container">

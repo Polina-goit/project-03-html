@@ -1,5 +1,5 @@
 .container {
-  width: 375px;
+  min-width: 375px;
   padding: 20px 0;
 }
 

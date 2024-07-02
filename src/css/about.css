@@ -109,6 +109,7 @@
 @media screen and (min-width: 1280px) {
   .section-about {
     height: 532px;
+    margin: 100px 0;
     padding-bottom: 100px;
   }
   .container-about {

@@ -29,7 +29,7 @@
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
   .advertisement-bg {
-    background-image: url(./img/advertis/advers-mob-bg-2x.png);
+    background-image: url(./img/advertis/adver-mob-bg-2x.png);
   }
 }
 .advertisement-text {
@@ -86,7 +86,7 @@
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .advertisement-bg {
-      background-image: url(./img/advertis/advers-tab-bg-2x);
+      background-image: url(./img/advertis/advers-tab-bg-2x.png);
     }
   }
   .advertisement-text {
@@ -123,7 +123,7 @@
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .advertisement-bg {
-      background-image: url(./img/advertis/advers-deskbg-2x);
+      background-image: url(./img/advertis/advers-deskbg-2x.png);
     }
   }
 }

@@ -38,10 +38,30 @@
         <a class="hero-scroll-text" href="#footer">Scroll down</a>
       </div>
     <!-- </div> -->
-    <img
-      class="hero-img-desk"
-      src="../img/hero/hero-desk-1x.jpg"
-      alt="Rectangle"
-    />
+
+    <div>
+      <picture>
+        <source
+          srcset="/img/hero/hero-mob-1x.png 1x, /img/hero/hero-mob-2x.png 2x"
+          type="image/png"
+          media="(max-width:767px)"
+        />
+        <source
+          srcset="/img/hero/hero-tab-1x.png 1x, /img/hero/hero-tab-2x.png 2x"
+          type="image/png"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="/img/hero/hero-desk-1x.png 1x, /img/hero/hero-desk-2x.png 2x"
+          type="image/png"
+          media="(min-width:1280px)"
+        />
+      <img
+        class="hero-img-desk"
+        src="../img/hero/hero-desk-1x.png"
+        alt="Rectangle"
+      />
+      </picture>
+    </div>
   </div>
 </section>

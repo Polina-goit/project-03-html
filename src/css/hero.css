@@ -1,17 +1,17 @@
-@media (min-width: 320px) and (max-width: 374px) {
-  .container {
-    width: 100%;
-    padding: 0 20px;
-    margin: 0 auto;
-    max-width: 375px;
-  }
+ .hero {
+  height: 732px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
 
+ }
+.hero-block {
+  margin-top: 60px;
+}
   .hero-container-text {
     max-width: 335px;
     text-align: center;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
   }
   .hero-title {
     font-family: 'Gilroy', sans-serif;
@@ -45,7 +45,6 @@
   }
   .hero-list-scroll {
     display: flex;
-    padding-left: 20px;
     justify-content: space-between;
     align-items: flex-end;
     text-decoration: underline;
@@ -58,7 +57,7 @@
   }
   .hero-img {
   }
-}
+
 /* --------------------------------------------- */
 /* ------------------768------------------------ */
 @media screen and (min-width: 768px) {
@@ -66,11 +65,18 @@
     max-width: 768px;
     padding: 0 32px;
   }
+  .hero {
+    width: 768px;
+  }
   .hero-block {
     width: 704px;
+    margin-top: 80px;
     display: flex;
+    
+
   }
   .hero-container-text {
+    width: 557px;
   }
 
   .hero-title {
@@ -97,7 +103,6 @@
   .hero-title-collection {
     color: #3350e9;
   }
-
   .hero-list-scroll {
     margin-bottom: 28px;
     justify-content: space-between;
@@ -130,10 +135,6 @@
 /* ------------------------------- */
 /* -----------1280----------------- */
 @media screen and (min-width: 1280px) {
-  /* .hero-container{
-  max-width: 1280px;
-  padding: 0 65px;
-} */
   .container {
     max-width: 1280px;
     margin: 0 auto;

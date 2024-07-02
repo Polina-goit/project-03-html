@@ -44,34 +44,27 @@
       </div>
     </div>
     <picture>
-      <!-- Desktop screen -->
-
       <source
-        media="(min-width: 1158px)"
+      media="(max-width: 767px)"
+      srcset="/img/hero/hero-mob-1x.png 1x, /img/hero/hero-mob-2x.png 2x"
+      type="image/png"
+    />
+    <source
+    media="(min-width: 768px)"
+    srcset="/img/hero/hero-tab-1x.png 1x, /img/hero/hero-tab-2x.png 2x"
+    type="image/png"
+  />
+      <source
+        media="(min-width: 1280px)"
         srcset="/img/hero/hero-desk-1x.png 1x, /img/hero/hero-desk-2x.png 2x"
-        type="image/png"
-      />
-      <!-- Tablet screen -->
-
-      <source
-        media="(min-width: 768px)"
-        srcset="/img/hero/hero-tab-1x.png 1x, /img/hero/hero-tab-2x.png 2x"
-        type="image/png"
-      />
-      <!-- Mobile screen -->
-
-      <source
-        media="(max-width: 767px)"
-        srcset="/img/hero/hero-mob-1x.png 1x, /img/hero/hero-mob-2x.png 2x"
         type="image/png"
       />
       <img
         class="hero-img"
         src="/img/hero/hero-desk-1x.png"
-        alt="src/img/hero/hero-desk-1x.png"
-        width="1150"
-        loading="lazy"
+        alt="times"
       />
     </picture>
   </div>
 </section>
+

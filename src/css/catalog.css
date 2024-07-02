@@ -1,5 +1,5 @@
 .catalog-section {
-  /* padding-bottom: 60px; */
+  padding-bottom: 60px;
 }
 .catalog-title {
   font-family: 'Gilroy', sans-serif;
@@ -119,9 +119,10 @@
 @media screen and (min-width: 1280px) {
   .catalog-section {
     padding-bottom: 100px;
-    /* padding-top: 100px; */
+    padding-top: 100px;
   }
   .catalog-menu {
+    margin-bottom: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -129,7 +130,6 @@
   }
 
   .catalog-menu {
-    margin-bottom: 0;
     flex-basis: calc((100% - 23px) / 2);
   }
 

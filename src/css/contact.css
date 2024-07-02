@@ -12,7 +12,6 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 } */
-} */
 ::placeholder {
   font-weight: 400;
   font-size: 14px;
@@ -195,12 +194,10 @@
     }
     .contact-submit-button {
         padding: 17px 63px;
-        /* width: 160px;
-        height: 52px; */
+        width: 160px;
     }
     .contact-image {
-        /* width: 704px; */
-        /* height: 556px; */
+        border-radius: 50px;
     }
 
 }

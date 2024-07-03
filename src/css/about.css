@@ -46,6 +46,7 @@
 }
 
 .about-btn {
+  display: flex;
   width: 160px;
   height: 48px;
   border-radius: 16px;
@@ -53,6 +54,8 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: #fbfbfb;
 }

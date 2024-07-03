@@ -1,3 +1,4 @@
+/* version 1.16 */
 /* ________________________SECTION CONTACT US_______________________ */
 /* _____________________________GENERICO___________________________ */
 /* .visually-hidden {
@@ -129,7 +130,7 @@
     border-radius: 16px;
     padding: 12px 50px;
     width: 134px;
-    height: 52px;
+    height: 42px;
     background-color: #3350e9;
     font-weight: 500;
     font-size: 14px;
@@ -197,6 +198,7 @@
     .contact-submit-button {
         padding: 17px 63px;
         width: 160px;
+        height: 52px;
     }
     .contact-image-container{
         height: 100%;

@@ -68,7 +68,7 @@
 .about-img {
   width: 335px;
   height: 446px;
-  background: rgba(12, 12, 12, 0.2), url('path_to_image');
+  background-color: rgba(12, 12, 12, 0.2);
 }
 
 /* ---------tablet--------- */

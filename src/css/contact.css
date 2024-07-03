@@ -123,25 +123,6 @@
   border: 1px solid #3350e9;
 }
 .contact-submit-button {
-<<<<<<< section-contact-us
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-right: auto;
-    border-radius: 16px;
-    padding: 12px 50px;
-    width: 134px;
-    height: 42px;
-    background-color: #3350e9;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    text-align: center;
-    color: #fbfbfb;
-    border: none;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-=======
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -159,7 +140,6 @@
   border: none;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
->>>>>>> main
 }
 .contact-submit-button:hover,
 .contact-submit-button:focus {
@@ -179,57 +159,6 @@
 /* ________________________________TABLET_______________________________ */
 
 @media screen and (min-width: 768px) {
-<<<<<<< section-contact-us
-    .contact {
-        padding-bottom: 80px;
-    }
-    .contact-title {
-        font-size: 48px;
-        line-height: 0.9;
-        margin-bottom: 40px;
-    }
-    .contact-form-container {
-        padding: 50px 122px;
-        margin-bottom: 40px;
-        border-radius: 50px;
-    }
-    .contact-form-title {
-        font-size: 16px;
-        line-height: 1.25;
-        margin-bottom: 32px;
-    }
-    .contact-order-form-container{
-        height: 52px;
-    }
-    .contact-form-input {
-        padding-top: 16px;
-        padding-right: 18px;
-        padding-bottom: 16px;
-        padding-left: 18px;
-        font-size: 16px;
-        line-height: 1.25;
-    }
-    .contact-form-textarea { 
-        font-size: 16px;
-        line-height: 1.25;
-        padding-top: 16px;
-        padding-right: 16px;
-        padding-bottom: 16px;
-        padding-left: 16px;
-    }
-    .contact-submit-button {
-        padding: 17px 63px;
-        width: 160px;
-        height: 52px;
-    }
-    .contact-image-container{
-        height: 100%;
-        margin: 0;
-    }
-    .contact-image {
-        border-radius: 50px;
-    }
-=======
   .contact {
     padding-bottom: 80px;
   }
@@ -278,7 +207,6 @@
   .contact-image {
     border-radius: 50px;
   }
->>>>>>> main
 }
 /* ______________________________END TABLET____________________________ */
 /* ______________________________DESKTOP______________________________ */

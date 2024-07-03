@@ -161,7 +161,7 @@
   justify-content: center;
 }
 .mob-icon {
-  background-color: 1px solid rgba(251, 251, 251, 0.1);
+  /* background-color: 1px solid rgba(251, 251, 251, 0.1); */
   border-radius: 10px;
   width: 34px;
   height: 34px;
